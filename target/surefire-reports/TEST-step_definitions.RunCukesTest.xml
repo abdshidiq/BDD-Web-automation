@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" name="step_definitions.RunCukesTest" time="1.495" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.3.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="A:\BBDSauceDemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="A:\BBDSauceDemo"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHIDIQ~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="maven.ext.class.path" value="A:\Application\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="A:\Application\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Java\jdk1.8.0_102\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\plugins\maven\lib\maven3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shidiq182\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\shidiq182\AppData\Local\Programs\Python\Python38-32\;C:\Users\shidiq182\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.3\bin;;A:\Visual Studio Code\Microsoft VS Code\bin;C:\Users\shidiq182\AppData\Roaming\npm;A:\Application\IntelliJ IDEA Community Edition 2020.3.3\bin;;C:\Program Files\heroku\bin;."/>
+    <property name="maven.conf" value="A:\Application\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\shidiq182"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="shidiq182"/>
+    <property name="java.class.path" value="A:\Application\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;A:\Application\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;A:\Application\IntelliJ IDEA Community Edition 2020.3.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.4 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="id"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="A:\Application\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Given User open the website sauce demo" time="0.007"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User already on landing page" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User sort product list by &quot;Price (high to low)&quot;" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User choice 2 product from the list" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click item To Chart" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Scenario: User make a purchase with 2 item" time="1.488"/>
+</testsuite>

@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39760597230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User make a purchase with 2 item",
+        "description": "",
+        "id": "sales-flow;user-make-a-purchase-with-2-item",
+        "after": [
+          {
+            "result": {
+              "duration": 1486278325,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4281662829,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open the website sauce demo",
+            "match": {
+              "location": "LoginSteps.verifyLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 944538556,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input \"standard_user\" as userName and input \"secret_sauce\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 12
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginSteps.inputCredential(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100029022,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User already on landing page",
+            "match": {
+              "location": "PurchaseStep.verifyLandingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3563795486,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sort product list by \"Price (high to low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price (high to low)",
+                  "offset": 27
+                }
+              ],
+              "location": "PurchaseStep.sortProductValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3212618547,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User choice 2 product from the list",
+            "match": {
+              "location": "PurchaseStep.choiceProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3119263487,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click item To Chart",
+            "match": {
+              "location": "PurchaseStep.addToChart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Sales flow",
+    "description": "description Class",
+    "id": "sales-flow",
+    "keyword": "Feature",
+    "uri": "features/Sales.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sales"
+      }
+    ]
+  }
+]
