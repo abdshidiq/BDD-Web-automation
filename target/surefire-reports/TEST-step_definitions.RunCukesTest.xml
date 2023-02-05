@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="step_definitions.RunCukesTest" time="1.495" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="step_definitions.RunCukesTest" time="0.847" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -7,7 +7,7 @@
     <property name="java.vm.version" value="25.102-b14"/>
     <property name="user.country.format" value="ID"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="A:\BBDSauceDemo"/>
+    <property name="maven.multiModuleProjectDirectory" value="A:\BDDSauceDemo"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="A:\BBDSauceDemo"/>
+    <property name="user.dir" value="A:\BDDSauceDemo"/>
     <property name="java.runtime.version" value="1.8.0_102-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_102\jre\lib\endorsed"/>
@@ -66,11 +66,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Given User open the website sauce demo" time="0.007"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User already on landing page" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="And User sort product list by &quot;Price (high to low)&quot;" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="And User choice 2 product from the list" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click item To Chart" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Scenario: User make a purchase with 2 item" time="1.488"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="Given User open the website sauce demo" time="0.004"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="Then User already on landing page" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="And User sort product list by &quot;Name (Z to A)&quot;" time="0.002"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="When User choice 2 product from the list" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="And User click item To Chart" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="Then User already on checkout page" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="Then User verify that &quot;Sauce Labs Onesie,Test.allTheThings() T-Shirt (Red)&quot; as products in a list" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="When User remove &quot;Test.allTheThings() T-Shirt (Red)&quot; as products in a list" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="And User checkout the selected product" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="And User input the checkout information with first name &quot;Abdul Rohman&quot; and last name &quot;Shidiq&quot; then postal code &quot;16417&quot;" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="And User click the checkout button" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="Then User verify item total, tax, total on checkout summary page" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="And User click button finish" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="Then User already in checkout complete page" time="0"/>
+  <testcase classname="Scenario: User wants to checkout one item from the website saucedemo" name="Scenario: User wants to checkout one item from the website saucedemo" time="0.841"/>
 </testsuite>

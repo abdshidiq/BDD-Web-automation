@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber-JVM Reports  - Tag: @Sales</title>
+<title>Cucumber-JVM Reports  - Tag: @CheckOut</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>02 Feb 2023, 21:04</td>
+                        <td>05 Feb 2023, 15:05</td>
           </tr>
         </tbody>
       </table>
@@ -122,17 +122,17 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">@Sales</td>
+          <td class="tagname">@CheckOut</td>
                     <td  class="passed"    >1</td>
           <td >0</td>
           <td class="total">1</td>
-          <td      class="passed"    >6</td>
+          <td      class="passed"    >15</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">6</td>
-          <td class="duration" data-value="15221907927">15s 221ms</td>
+          <td class="total">15</td>
+          <td class="duration" data-value="43410161527">43s 410ms</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -152,7 +152,7 @@ $(document).ready(function() {
                   
 <div class="element">
       <div class="indention">
-      <a href="features-Sales-feature.html">View Feature</a> <i>Sales flow</i>
+      <a href="features-CheckOut-feature.html">View Feature</a> <i>CheckOut</i>
     </div>
   
   
@@ -164,7 +164,7 @@ $(document).ready(function() {
     
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">User make a purchase with 2 item</span>
+  <span class="name">User wants to checkout one item from the website saucedemo</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -194,7 +194,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.openBrowser()</span>
                         
-  <span class="lead-duration duration">39s 760ms</span>
+  <span class="lead-duration duration">7s 481ms</span>
 
           </div>
 
@@ -229,7 +229,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">User open the website sauce demo</span>
   
-  <span class="lead-duration duration">4s 281ms</span>
+  <span class="lead-duration duration">278ms</span>
 
   </div>
 
@@ -250,7 +250,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User input "standard_user" as userName and input "secret_sauce" as password</span>
   
-  <span class="lead-duration duration">944ms</span>
+  <span class="lead-duration duration">3s 561ms</span>
 
   </div>
 
@@ -271,7 +271,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User already on landing page</span>
   
-  <span class="lead-duration duration">100ms</span>
+  <span class="lead-duration duration">067ms</span>
 
   </div>
 
@@ -290,9 +290,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">User sort product list by "Price (high to low)"</span>
+  <span class="name">User sort product list by "Name (Z to A)"</span>
   
-  <span class="lead-duration duration">3s 563ms</span>
+  <span class="lead-duration duration">3s 207ms</span>
 
   </div>
 
@@ -310,10 +310,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">And</span>
+  <span class="keyword indention">When</span>
   <span class="name">User choice 2 product from the list</span>
   
-  <span class="lead-duration duration">3s 212ms</span>
+  <span class="lead-duration duration">4s 920ms</span>
 
   </div>
 
@@ -332,9 +332,198 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">User Click item To Chart</span>
+  <span class="name">User click item To Chart</span>
   
-  <span class="lead-duration duration">3s 119ms</span>
+  <span class="lead-duration duration">3s 132ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User already on checkout page</span>
+  
+  <span class="lead-duration duration">3s 046ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User verify that "Sauce Labs Onesie,Test.allTheThings() T-Shirt (Red)" as products in a list</span>
+  
+  <span class="lead-duration duration">3s 122ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">User remove "Test.allTheThings() T-Shirt (Red)" as products in a list</span>
+  
+  <span class="lead-duration duration">3s 089ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">User checkout the selected product</span>
+  
+  <span class="lead-duration duration">3s 099ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">User input the checkout information with first name "Abdul Rohman" and last name "Shidiq" then postal code "16417"</span>
+  
+  <span class="lead-duration duration">3s 443ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">User click the checkout button</span>
+  
+  <span class="lead-duration duration">3s 145ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User verify item total, tax, total on checkout summary page</span>
+  
+  <span class="lead-duration duration">3s 138ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">User click button finish</span>
+  
+  <span class="lead-duration duration">3s 111ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User already in checkout complete page</span>
+  
+  <span class="lead-duration duration">3s 043ms</span>
 
   </div>
 
@@ -373,7 +562,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.closeBrowser()</span>
                         
-  <span class="lead-duration duration">1s 486ms</span>
+  <span class="lead-duration duration">828ms</span>
 
           </div>
 

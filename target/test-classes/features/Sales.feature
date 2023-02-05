@@ -8,4 +8,4 @@ Feature: Sales flow
     Then User already on landing page
     And User sort product list by "Price (high to low)"
     And User choice 2 product from the list
-    And User Click item To Chart
+    And User click item To Chart

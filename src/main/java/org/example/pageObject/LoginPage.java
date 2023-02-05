@@ -15,12 +15,21 @@ public class LoginPage {
 
     @FindBy(xpath = "//input[@id='user-name']")
     private WebElement userName;
+    public void setUserName(String user){
+        userName.sendKeys(user);
+    }
 
     @FindBy(xpath = "//input[@id='password']")
     private WebElement password;
+    public void setPassword(String psd){
+        password.sendKeys(psd);
+    }
 
     @FindBy(id = "login-button")
     private WebElement btnLogin;
+    public void clickLogin(){
+        btnLogin.click();
+    }
 
     @FindBy(xpath = "//span[@class='title']")
     private WebElement vrfyLandingPage;
@@ -41,17 +50,5 @@ public class LoginPage {
         userName.isDisplayed();
         return true;
     }
-    public void setUserName(String user){
-        userName.sendKeys(user);
-    }
-
-    public void setPassword(String psd){
-        password.sendKeys(psd);
-    }
-
-    public void clickLogin(){
-        btnLogin.click();
-    }
-
 
 }

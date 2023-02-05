@@ -1,5 +1,6 @@
 package step_definitions;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -7,7 +8,6 @@ import org.example.pageObject.LandingPage;
 import org.example.pageObject.LoginPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-
 import static org.junit.Assert.assertEquals;
 
 public class LoginSteps {
@@ -24,17 +24,24 @@ public class LoginSteps {
         Assert.assertTrue(loginPage.verifyLoginPage());
     }
     @When("User input \"(.*)\" as userName and input \"(.*)\" as password")
-    public void inputCredential(String userName, String password){
+    public void inputCredential(String userName, String password) throws InterruptedException {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.setUserName(userName);
         loginPage.setPassword(password);
         loginPage.clickLogin();
+        Thread.sleep(3000);
     }
-    @Then("User see error \"(.*)\" on login page")
-    public void verifyErrorText(String errorText){
-        LoginPage loginPage = new LoginPage(webDriver);
-        assertEquals(errorText, loginPage.verifyErrorText());
-    }
+
+
+
+
+
+
+//    @Then("User see error \"(.*)\" on login page")
+//    public void verifyErrorText(String errorText){
+//        LoginPage loginPage = new LoginPage(webDriver);
+//        assertEquals(errorText, loginPage.verifyErrorText());
+//    }
 
 
 }
